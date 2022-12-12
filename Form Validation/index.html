@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/bc5141b50b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Create your Account!</h2>
+        </div>
+        <form class="form" id="form">
+            <div class="form-control">
+                <label class="username">Username</label>
+                <input type="text" placeholder="Enter your name" id="username">
+                <i class="fa-solid fa-circle-check"></i>
+                <i class="fa-solid fa-circle-exclamation"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label class="email">Email</label>
+                <input type="email" placeholder="Enter your email" id="email">
+                <i class="fa-solid fa-circle-check"></i>
+                <i class="fa-solid fa-circle-exclamation"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label class="password">Password</label>
+                <input type="password" placeholder="Enter your password" id="password">
+                <i class="fa-solid fa-circle-check"></i>
+                <i class="fa-solid fa-circle-exclamation"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label class="password2">Confirm Password</label>
+                <input type="password" placeholder="Enter your name" id="password2">
+                <i class="fa-solid fa-circle-check"></i>
+                <i class="fa-solid fa-circle-exclamation"></i>
+                <small>Error message</small>
+            </div>
+            <button>Submit</button>
+        </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

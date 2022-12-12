@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+
+.container{
+    width: 100vw;
+    min-height: 100vh;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    display: grid;
+    place-items: center;
+    background-color: hsl(204, 55%, 60%);
+}
+.inner-div{
+    width: 40vw;
+    background-color: white;
+    padding: 3rem 8rem;
+    border-radius: 1rem;
+    box-shadow: 1rem 1rem 1rem -0.7rem black;
+}
+.inner-div h2{
+    font-size: 3.5rem;
+    font-weight: 400;
+    margin: 1rem 0 3rem 0;
+}
+.inner-div li{
+    font-size: 2rem;
+    margin-top: 1.5rem;
+    list-style: none;
+}
+input{
+    cursor: pointer;
+}
+#submit , .btn{
+    padding: 1rem 3rem;
+    outline: none;
+    font-size: 2rem;
+    display: block;
+    margin: auto;
+    margin-top: 3rem;
+    border: none;
+    cursor: pointer;
+    /* border-radius: 0.8rem; */
+    background-color: rgb(27, 125, 155);
+    color: white;
+    text-transform: uppercase;
+}
+#submit:hover{
+    background-color: rgb(84, 84, 133);
+}
+.scoreArea{
+    background-color: rgba(218, 205, 205, 0.836);
+    padding: 3rem 4rem;
+    margin-top: 4rem;
+    box-shadow: 0 1rem 1rem -0.7rem black;
+    display: none;
+}
+.scoreArea h3{
+    font-size: 3rem;
+    text-align: center;
+}
+.scoreArea .btn{
+    margin-top: 2rem;
+    background-color: rgb(93, 196, 84);
+    color: black;
+}
+.scoreArea .btn:hover{
+    background-color: greenyellow;
+
+}
